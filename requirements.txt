@@ -1,0 +1,16 @@
+# ==============================================================================
+# MedMate: Medicine Alternative Suggester with Allergy Check
+# Requirements Specification
+# ==============================================================================
+# Python Version Required: Python 3.9+ (Tested on Python 3.10, 3.11, 3.12, 3.14)
+# All matching and allergy checking logic in medmate.py runs on pure Python standard library.
+# The following third-party packages are required for the web UI, testing, and tabular data:
+
+# 1. Interactive Web Dashboard UI
+streamlit>=1.30.0
+
+# 2. Tabular Data Handling & DataFrame Exports
+pandas>=2.0.0
+
+# 3. Clinical Test Suite & Assertion Runner
+pytest>=7.0.0

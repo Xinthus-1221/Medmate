@@ -1,0 +1,11 @@
+test_id,medicine_id,allergies,do_not_substitute,expected_alternatives,expected_excluded,notes
+TC01,M001,Dye R,False,"M005;M006","M002;M003",Prescribed Zolvexin with Dye R allergy excludes M002 (Dye R) and M003 (missing inactive data). M005 and M006 valid.
+TC02,M001,,False,"M002;M003;M005;M006",,Empty allergy list returns all valid alternatives including blank inactive ingredients.
+TC03,M001,Dye Q,False,"M002;M005;M006","M003",Prescribed medicine M001 contains Dye Q; flags warning to consult doctor.
+TC04,M001,,True,,,Do not substitute flag returns zero alternatives with explanatory message.
+TC05,M011,Penicillin,False,,M012;M013,Class trigger: Amoxicillin belongs to Penicillin class. Prescribed is flagged and candidates excluded.
+TC06,M008,Dye Yellow 6,False,"M010","M009",Combination medicine Paracetamol + Caffeine. M009 has Dye Yellow 6. M010 has NONE.
+TC07,M001,Synthetic Analgesic,False,,"M002;M003;M005;M006",Class trigger for Synthetic Analgesic flags prescribed M001 and excludes all candidates.
+TC08,M016,Lactose,False,"M017","M018",Prescribed M016 has Lactose (flagged). M017 accepted. M018 excluded due to missing inactive data.
+TC09,M019,Titanium Dioxide,False,"M020",,Prescribed Allerzap contains Titanium Dioxide. Alternative Cetiwell (NONE) accepted.
+TC10,M999,,False,,,Non-existent medicine ID gracefully returns not found message and empty alternatives.

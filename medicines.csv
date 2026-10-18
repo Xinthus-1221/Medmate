@@ -1,0 +1,21 @@
+id,brand,active_ingredients,strength,form,inactive_ingredients,manufacturer,pack_size,price_per_pack
+M001,Zolvexin,Zolvexol,500 mg,tablet,Filler M; Dye Q,Arden Labs,10,42.00
+M002,Zolvex,Zolvexol,500 mg,tablet,Filler M; Dye R,Belmont,10,30.00
+M003,Zolvexa,Zolvexol,500 mg,tablet,,Corvane,10,25.00
+M004,Zolvexin,Zolvexol,250 mg,tablet,Filler M,Arden Labs,10,24.00
+M005,Zolvapen,Zolvexol,0.5 g,tablet,Filler M; Cornstarch,Apex Pharma,10,28.50
+M006,PureZol,Zolvexol,500 mg,tablet,NONE,CleanMed,10,35.00
+M007,Zolvex-Cap,Zolvexol,500 mg,capsule,Gelatin; Filler M,Belmont,10,32.00
+M008,Novagesic,Paracetamol + Caffeine,500 mg + 65 mg,tablet,Starch; Povidone,Nova Health,20,55.00
+M009,Panacaf,Caffeine + Paracetamol,65 mg + 500 mg,tablet,Microcrystalline Cellulose; Dye Yellow 6,Panacea Labs,20,48.00
+M010,ReliefPlus,Paracetamol + Caffeine,0.5 g + 65 mg,tablet,NONE,BioCare,20,45.00
+M011,Amoxisol,Amoxicillin,250 mg,capsule,Gelatin; Titanium Dioxide,Zenith,15,60.00
+M012,Biomox,Amoxicillin,250 mg,capsule,Gelatin; Iron Oxide,BioPharm,15,50.00
+M013,Moxacare,Amoxicillin,250 mg,capsule,,CareMed,15,45.00
+M014,Flupen,Flucloxacillin,500 mg,capsule,Gelatin; Magnesium Stearate,Zenith,20,85.00
+M015,Penilux,Flucloxacillin,500 mg,capsule,Gelatin; Dye Blue 1,LuxPharma,20,78.00
+M016,Cardiprin,Aspirin,75 mg,tablet,Lactose; Talc,HeartWell,30,22.00
+M017,Aspisafe,Aspirin,75 mg,tablet,Microcrystalline Cellulose,PureHealth,30,18.00
+M018,Soluspirin,Aspirin,75 mg,tablet,,SoluCorp,30,15.00
+M019,Allerzap,Cetirizine,10 mg,tablet,Lactose; Titanium Dioxide,Zydus Life,10,35.00
+M020,Cetiwell,Cetirizine,10 mg,tablet,NONE,WellMed,10,30.00
